@@ -29,5 +29,3 @@ Just launch
 npm install
 npm start
 ```
-
-Just check [this example](https://github.com/Inglebard/snMVC-example) to understand how it works.
