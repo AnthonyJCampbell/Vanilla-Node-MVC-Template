@@ -1,1 +1,0 @@
-# Vanilla-Node-MVC-Template

@@ -1,0 +1,16 @@
+{
+  "name": "snMVC",
+  "version": "0.0.5",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Inglebard",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.8",
+    "express": "^4.16.3"
+  }
+}
