@@ -1,29 +1,27 @@
-# snMVC
-snMVC is Simple Nodejs MVC template.
+# Vanilla Node MVC Template
+A simple Nodejs MVC template with EJS.
 
-### Why ?
+### Intro
 I was not able to find a simple MVC to begin with Nodejs. So I try to create a simple one but also a little bit configurable.
 
-This template use express and EJS (EJS can be easily change).
+This template is easily expandable and able to be set up in less than a minute. It uses express and EJS as view engine (which can be easily changed).
 
 ### Directories
 
 - config :
-  - config.dev.js => config for dev environement
-  - config.dev.js => config for prod environement
-  - router.js => all routes for express
-- controllers => all your logic
-- middlewares => all your middlewares
+  - config.dev.js => config for development environment
+  - config.dev.js => config for production environment
+  - router.js => all routing for express
+- controllers => all your business logic
+- middlewares => all your middlewares for validation, data sanitation, etc.
 - models => all your models
-  - entities => all your class to map your data in the databases
+  - entities => all your classes to map your data in the databases
 - public => all static stuff
-- vendors => I don't know how to call this directory, but here is where your put "external stuff"
+- vendors => all configuration, setup, and variables for external APIs, services or technologies.
 - views => all your view to be render
   - partials => part of views
 
-Easy to use/understand/modify/improve.
-
-### How to use it ?
+### Get Started
 
 Just launch
 
